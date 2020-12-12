@@ -8,16 +8,16 @@
     <fragment
         android:id="@+id/recipesFragment"
         android:name="com.koko.foodiekotlin.Fragments.RecipesFragment"
-        android:label="fragment_recipes"
+        android:label="Recipes"
         tools:layout="@layout/fragment_recipes" />
     <fragment
         android:id="@+id/favoriteRecipesFragment"
         android:name="com.koko.foodiekotlin.Fragments.FavoriteRecipesFragment"
-        android:label="fragment_favorite_recipes"
+        android:label="Favorite Recipes"
         tools:layout="@layout/fragment_favorite_recipes" />
     <fragment
         android:id="@+id/foodJokeFragment"
         android:name="com.koko.foodiekotlin.Fragments.FoodJokeFragment"
-        android:label="fragment_food_joke_frament"
+        android:label="Food Joke"
         tools:layout="@layout/fragment_food_joke_frament" />
 </navigation>
