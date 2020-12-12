@@ -16,8 +16,8 @@
         android:label="fragment_favorite_recipes"
         tools:layout="@layout/fragment_favorite_recipes" />
     <fragment
-        android:id="@+id/foodJokeFrament"
-        android:name="com.koko.foodiekotlin.FoodJokeFrament"
+        android:id="@+id/foodJokeFragment"
+        android:name="com.koko.foodiekotlin.Fragments.FoodJokeFragment"
         android:label="fragment_food_joke_frament"
         tools:layout="@layout/fragment_food_joke_frament" />
 </navigation>
