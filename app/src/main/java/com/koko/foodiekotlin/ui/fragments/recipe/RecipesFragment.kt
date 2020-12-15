@@ -1,4 +1,4 @@
-package com.koko.foodiekotlin.Fragments
+package com.koko.foodiekotlin.ui.fragments.recipe
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
