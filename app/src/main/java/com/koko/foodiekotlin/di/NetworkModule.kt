@@ -1,8 +1,7 @@
 package com.koko.foodiekotlin.di
 
-import android.app.Application
-import com.koko.foodiekotlin.Constants
-import com.koko.foodiekotlin.FoodRecipeApi
+import com.koko.foodiekotlin.util.Constants
+import com.koko.foodiekotlin.data.network.FoodRecipeApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -50,7 +49,7 @@ object NetworkModule {
 
     @Singleton
     @Provides
-     fun provideApiService(retrofit: Retrofit): FoodRecipeApi{
+     fun provideApiService(retrofit: Retrofit): FoodRecipeApi {
          return retrofit.create(FoodRecipeApi::class.java)
      }
 }

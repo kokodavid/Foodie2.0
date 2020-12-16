@@ -1,4 +1,4 @@
-package com.koko.foodiekotlin
+package com.koko.foodiekotlin.data.network
 
 import com.koko.foodiekotlin.models.FoodRecipe
 import retrofit2.Response

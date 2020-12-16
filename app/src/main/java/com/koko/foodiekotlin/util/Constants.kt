@@ -1,4 +1,4 @@
-package com.koko.foodiekotlin
+package com.koko.foodiekotlin.util
 
 class Constants {
     companion object {
